@@ -1,0 +1,329 @@
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+/*1170*/
+@media only screen and (max-width :1200px) {
+	.btn{
+		width: 250px;
+		height: 60px;
+		font-size: 16px;
+	}
+	.header-content{
+		font-size: 36px;
+		margin-bottom: 55px;
+	}
+	.section-title{
+		font-size: 35px;
+		margin-bottom: 12px;
+	}
+	
+	.flex-row-name{
+		font-size: 22px;
+		padding-top: 55px;
+		padding-bottom: 20px;
+
+	}
+	.service-item>.flex-row-content{
+
+		font-size: 15px;
+	}
+	.header-flex{
+		padding-top: 57px;
+		margin-left: 40px;
+		margin-right: 20px;
+
+		margin-bottom: 100px;
+	}
+	.main-menu{
+		font-size: 15px;
+		padding:10px 17px;
+	}
+	section.site-section{
+		padding-bottom: 60px;
+		padding-top: 60px;
+	}
+	.main-section{
+		padding-bottom: 60px;
+	}
+	.section-subtitle{
+		font-size: 18px;
+		margin-bottom: 60px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.btn{
+		width: 230px;
+		height: 50px;
+		font-size: 13px;
+	}
+	.header-content{
+		font-size: 28px;
+		margin-bottom: 35px;
+	}
+	.header-flex{
+
+		margin-bottom: 80px;
+	}
+	.main-menu{
+		font-size: 14px;
+		padding: 9px 16px;
+	}
+	
+	.main-section{
+		padding-bottom: 50px;
+	}
+	.site-section{
+		padding-bottom: 50px;
+		padding-top: 50px;
+	}
+	section.section-title{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	
+	.image-col-4x-green{
+		height: 130px;
+	}
+	.flex-row-name{
+		font-size: 18px;
+		padding-top: 40px;
+		padding-bottom: 18px;
+
+	}
+	.service-item>.flex-row-content{
+
+		font-size: 13px;
+	}
+	.sm-col-2x{
+		width: 50%;
+		margin-bottom: 10px
+	}
+	.section-title{
+		font-size: 35px;
+	}
+	.section-subtitle{
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+
+	.footer-menu {
+
+		font-size: 18px;	 
+	}
+	.footer-menu-bottom li{
+		display: inline;
+		padding-right:30px;
+	}
+
+}
+/* Small Devices, Tablts */
+@media only screen and (max-width : 768px) {
+	
+	.btn{
+		width: 230px;
+		height: 50px;
+		font-size: 13px;
+	}
+	.header-content{
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.header-flex{
+		padding-top: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+
+		margin-bottom: 50px;
+	}
+	.main-menu{
+		font-size: 15px;
+		padding: 8px 15px;
+	}
+	
+	.main-section{
+		padding-bottom: 40px;
+	}
+	section.site-section{
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+	.section-title{
+		font-size: 20px;
+	}
+	
+	.image-col-4x-green{
+		height: 100px;
+	}
+	.flex-row-name{
+		font-size: 16px;
+		padding-top: 25px;
+		
+	}
+	.section-title{
+		font-size: 32px;
+		margin-bottom: 12px;
+	}
+	.section-subtitle{
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.sm-col-1x{
+		width:100%;
+	}
+	.footer-menu {
+
+		font-size: 16px;	 
+	}
+	.footer-menu-bottom li{
+		display: inline;
+		padding-right:20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.btn{
+		width: 180px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.header-content{
+		font-size: 23px;
+		margin-bottom: 25px;
+	}
+	.header-flex{
+
+		margin-bottom: 40px;
+	}
+	.main-menu{
+		font-size: 12px;
+		padding: 8px 12px;
+	}
+	.site-section{
+		padding-bottom: 30px;
+	}
+	.main-section{
+		padding-bottom: 30px;
+	}
+	.xs-col-1x{
+		width: 100%;
+	}
+	section.site-section{
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+	.section-title{
+		font-size: 16px;
+	}
+	
+	.image-col-4x-green{
+		height: 70px;
+	}
+	.flex-row-name{
+		font-size: 16px;
+		padding-top: 25px;
+		
+	}
+	.section-title{
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.section-subtitle{
+		font-size: 16px;
+		margin-bottom: 18px;
+	}
+	.footer-menu {
+
+		font-size: 16px;	 
+	}
+	.footer-menu-bottom li{
+		display: block;
+		padding-right:20px;
+	}
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.btn{
+		width: 150px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.header-content{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	.header-flex{
+		margin-bottom: 20px;
+	}
+	.main-menu{
+		font-size: 10px;
+		padding: 8px 12px;
+	}
+	.site-section{
+		padding-bottom: 20px;
+	}
+	.main-section{
+		padding-bottom: 20px;
+	}
+	
+	section.site-section{
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	
+	
+	.image-col-4x-green{
+		height: 60px;
+	}
+	.flex-row-name{
+		font-size: 16px;
+		padding-top:8px;
+		
+	}
+	.section-title{
+		font-size: 18px;
+		margin-bottom: 8px;
+	}
+	.section-subtitle{
+		font-size: 14px;
+		margin-bottom: 12px;
+		line-height: 15px;
+	}
+	
+}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
